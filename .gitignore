@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+/src/main/resources/static/videos/torpedo.mp4
+/src/main/resources/static/imagenes/imagen1.jpg
+/src/main/resources/static/imagenes/torpedo.jpg

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <section id="contenido">
+            <h2>Ejemplo de formularios y sus input</h2>
+            <article>
+                <form action="#" method="GET">
+                    <label>button</label> - <input type="button" name="confirmar" value="Confirmar"/><br><br>
+                    <label>checkbox</label> - <input type="checkbox" name="terminos"/><br><br>
+                    <label>color</label> - <input type="color" name="fondo" value="#C8A2C8"/><br><br>
+                    <label>texto</label> - <input type="text" name="nombre" placeholder="Digite el nombre" size="30"/><br><br>
+                    <label>textarea</label> - <textarea name="dirección" rows="7" cols="25">Ejemplo de Texto</textarea><br><br>
+                    <label>date</label> - <input type="date" name="date" min="2021-01-01" max="2023-12-31"/><br><br>
+                    <label>datetime</label> - <input type="datetime-local" name="datetime-local"/><br><br>
+                    <label>time</label> - <input type="time" name="time"/><br><br>
+                    <label>email</label> - <input type="email" name="correo" placeholder="xxx@zzz.yyy" size="30"/><br><br>
+                    <label>file</label> - <input type="file" name="file" accept="image/png,image/jpg"/><br><br>
+                    <label>hidden</label> - <input type="hidden" id="hidden" value="NO se ve"/><br><br>
+                    <label>search</label> - <input type="search" name="search" size="30"/><br><br>
+                    <label>tel</label> - <input type="tel" name="tel" size="30"/><br><br>
+                    <label>url</label> - <input type="url" name="url" size="30"/><br><br>
+                    <label>week</label> - <input type="week" name="week"/><br><br>
+                    <label>month</label> - <input type="month" name="month"/><br><br>
+                    <label>number</label> - <input type="number" name="number" step="100"/><br><br>
+                    <label>password</label> - <input type="password" name="password" id="password"/><br><br>
+                    <label>radio</label> - Java<input type="radio" name="lenguaje" value="1"/><br><br>
+                    <label>radio</label> - C#<input type="radio" name="lenguaje" value="2"/><br><br>
+                    <label>radio</label> - Ruby<input type="radio" name="lenguaje" value="3"/><br><br>
+                    <label>range</label> - <input type="range" value="24" min="1" max="100" oninput="this.nextElementSibling.value = this.value"/><output>24</output> <br><br>
+                    <label>reset</label> - <input type="reset" name="reset" value="Limpiar"/><br><br>
+                    <label>Submit</label> - <input type="submit" value="Enviar"/><br><br>
+                </form>
+            </article>
+        </section>
+        <br>
+        <footer>Derechos reservados &COPY;2023</footer>
+    </body>
+</html>

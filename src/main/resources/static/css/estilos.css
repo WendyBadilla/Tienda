@@ -4,19 +4,19 @@
 */
 
 /*para los elemntos de tipo id (especificos)*/
-#encabezado{
+/*#encabezado{
     color: blueviolet;
     font-weight: bold;
-}
+}*/
 
 /*las class son para varios elementos*/
-.parrafosCentrados{
+/*.parrafosCentrados{
     text-align: center;
     font-weight: bold;
     color: slategrey;
-}
+}*/
 
-.textoVerde{
+/*.textoVerde{
     color: greenyellow;
 }
 
@@ -50,10 +50,43 @@ p:nth-child(odd){
 
 p:nth-child(even){
     background-color: cadetblue;
-}
+}*/
 
 /*
 *{
     background-color: black;
 }
 */
+
+/*++++++++++++++++++++++++*/
+
+#barralateral{
+    position: absolute;
+    height: 81%;
+    top: 12%;
+    left: 0%;
+    width: 20%;
+    background-color: #B2B2B2;
+    padding: 10px;
+}
+
+#contenido{
+    position: absolute;
+    height: 81%;
+    top: 12%;
+    left: 20%;    
+    width: 80%;
+    background-color: #DADADA;
+    padding: 10px;
+}
+
+#piePagina{
+    position: absolute  ;
+    height: 5%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #818181;
+    text-align: center;
+    padding: 5px;
+}

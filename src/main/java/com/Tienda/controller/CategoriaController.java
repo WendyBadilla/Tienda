@@ -28,6 +28,7 @@ public class CategoriaController {
     @GetMapping("/listado")
     public String inicio(Model model) {
         List<Categoria> listadoCategorias = categoriaService.getCategorias(false);
+        //List<Categoria> listadoCategorias = categoriaService.getCategoriasPorDescripcion("pad");
         model.addAttribute("categorias", listadoCategorias);
         model.addAttribute("totalCategorias", listadoCategorias.size());
         return "/categoria/listado";

@@ -55,7 +55,10 @@
                         </ul>
                         <ul class="navbar-nav" sec:authorize="isAuthenticated()">
                             <li class="nav-item text-white my-auto">
-                                <li class="fa fa-user mx-1"></li><span sec:authentication="name">Username</span>                            
+                                <img th:src="${#ctx.session.usuarioImagen}" width="50" height="50"/>                            
+                            </li>
+                            <li class="nav-item text-white my-auto">
+                                <i class="fa fa-user mx-1"></i><span sec:authentication="name">Username</span>                            
                             </li>
                             <li class="nav-item text-white my-auto">
                                 <form method="POST" th:action="@{/logout}">
